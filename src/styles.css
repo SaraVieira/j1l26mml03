@@ -1,0 +1,30 @@
+body {
+  font-family: sans-serif;
+}
+
+.buttons {
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttons button {
+  border: 0;
+  margin-right: 20px;
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  background: #262626;
+  border-radius: 4px;
+  color: #fafafa;
+  padding: 10px 12px;
+  box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.09);
+}
+
+.viz {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
